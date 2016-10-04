@@ -2,29 +2,35 @@
   Copyright Jasmine Jones & Jacob Wells
 */
 
+h1, h3, p, li{
+  font: Calibri, sans-serif;
+}
+
 body{
   margin: auto;
-  width: 800px;
+  max-width: 800px;
+  width: 80%;
 }
 
 header{
+  padding-top: 3em;
   text-align: center;
 }
 
 h1{
-  font-size: 2em;
+  font-size: 1.5em;
   margin-bottom: 0;
 }
 
 h3{
-  font-size: 1.25em;
+  font-size: 1.1em;
   font-weight: bold;
   margin-bottom: 0;
   text-decoration: underline;
 }
 
 p{
-  font-size: 1em;
+  font-size: 1.1em;
   margin-top: 0;
 }
 
@@ -36,7 +42,7 @@ ul{
 
 li{
   list-style-type: disc;
-  margin-left: 40px;
+  margin-left: 2.6em;
 }
 
 .noStyle{
@@ -44,7 +50,54 @@ li{
   margin: 0 0;
 }
 
+.bold{
+  font-weight: bold;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.noBold{
+  display: inline;
+  font-weight: normal;
+}
+
+.style{
+  font-weight: normal;
+  list-style-type: disc;
+}
+
 .date{
-  list-style: none;
   float: right;
+  list-style: none;
+  margin-top: -2.3em;
+}
+
+header li{
+  display: inline;
+}
+
+#noBull{
+  display: none;
+}
+
+@media screen and (max-width: 500px){
+  
+  body{
+    margin-bottom: 1em;
+  }
+  
+  .date{
+    float: none;
+    margin: 0 0;
+  }
+  
+  header li{
+    display: block;
+  }
+  
+  .noBull{
+    display: none;
+  }
 }
