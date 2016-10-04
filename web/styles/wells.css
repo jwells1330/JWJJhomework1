@@ -4,7 +4,7 @@
 
 body{
   margin: auto;
-  width: 800px;
+  width: 80%;
 }
 
 header{
@@ -62,4 +62,8 @@ li{
 .date{
   list-style: none;
   float: right;
+}
+
+@media screen and (max-width: 800px){
+  
 }
