@@ -4,6 +4,7 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <file>file:/Users/Jacob_Wells/Desktop/School/Current/CS3/homework/JwJjHomework1/web/wells.html</file>
             <file>file:/Users/Jacob_Wells/Desktop/School/Current/CS3/homework/JwJjHomework1/web/styles/jones.css</file>
             <file>file:/Users/Jacob_Wells/Desktop/School/Current/CS3/homework/JwJjHomework1/web/styles/wells.css</file>
@@ -15,6 +16,11 @@
 =======
             <file>file:/Users/jwells8/Desktop/jwjjhomework1/web/styles/wells.css</file>
             <file>file:/Users/jwells8/Desktop/JWJJhomework1/nbproject/build-impl.xml</file>
+||||||| merged common ancestors
+            <file>file:/Users/jwells8/Desktop/jwjjhomework1/web/styles/wells.css</file>
+            <file>file:/Users/jwells8/Desktop/JWJJhomework1/nbproject/build-impl.xml</file>
+=======
+>>>>>>> 3ad6aaf828d4754589f3e466a17d0c87b19b1ac8
             <file>file:/Users/jwells8/Desktop/jwjjhomework1/web/wells.html</file>
 >>>>>>> 6c08d94c53e72215bccbef602e0fc0766ecc1056
         </group>

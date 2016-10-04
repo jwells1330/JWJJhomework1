@@ -72,7 +72,7 @@ li{
   margin-top: -2.3em;
 }
 #leadership .date{
-    list-style: none;
+  list-style: none;
   float: right;
   margin-top: -1.15em;
 }
@@ -87,6 +87,10 @@ header li{
 }
 @media screen and (max-width: 500px){
   .date{
+    float: none;
+    margin: 0;
+  }
+  #leadership .date{
     float: none;
     margin: 0;
   }
