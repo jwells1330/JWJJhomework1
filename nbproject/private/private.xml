@@ -3,9 +3,20 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/Users/Jacob_Wells/Desktop/School/Current/CS3/homework/JwJjHomework1/web/wells.html</file>
             <file>file:/Users/Jacob_Wells/Desktop/School/Current/CS3/homework/JwJjHomework1/web/styles/jones.css</file>
             <file>file:/Users/Jacob_Wells/Desktop/School/Current/CS3/homework/JwJjHomework1/web/styles/wells.css</file>
+||||||| merged common ancestors
+            <file>file:/Users/Jacob_Wells/Desktop/School/Current/CS3/homework/JwJjHomework1/web/wells.html</file>
+            <file>file:/Users/Jacob_Wells/Desktop/School/Current/CS3/homework/JwJjHomework1/web/styles/jones.css</file>
+            <file>file:/Users/Jacob_Wells/Desktop/School/Current/CS3/homework/JwJjHomework1/web/styles/wells.css</file>
+            <file>file:/Users/Jacob_Wells/Desktop/School/Current/CS3/homework/JwJjHomework1/web/WEB-INF/web.xml</file>
+=======
+            <file>file:/Users/jwells8/Desktop/jwjjhomework1/web/styles/wells.css</file>
+            <file>file:/Users/jwells8/Desktop/JWJJhomework1/nbproject/build-impl.xml</file>
+            <file>file:/Users/jwells8/Desktop/jwjjhomework1/web/wells.html</file>
+>>>>>>> 6c08d94c53e72215bccbef602e0fc0766ecc1056
         </group>
     </open-files>
 </project-private>

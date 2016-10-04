@@ -58,12 +58,43 @@ li{
   font-weight: normal;
   font-style: italic;
 }
+.noStyleItalisizeBold{
+  list-style: none;
+  margin: 0 0;
+  font-weight: bold;
+  font-style: italic;
+}
 
 .date{
   list-style: none;
   float: right;
+  margin-top: -2.3em;
 }
-
-@media screen and (max-width: 800px){
-  
+#leadership .date{
+    list-style: none;
+  float: right;
+  margin-top: -1.15em;
+}
+div{
+  display: inline;
+  font-weight: normal;
+}
+header li{
+  list-style: none;
+  display: inline;
+  margin: 0;
+}
+@media screen and (max-width: 500px){
+  .date{
+    float: none;
+    margin: 0;
+  }
+  header li{
+  list-style: none;
+  display: block;
+  margin: 0;
+  }
+  #bullet{
+    display: none;
+  }
 }
