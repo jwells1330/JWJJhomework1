@@ -1,0 +1,105 @@
+/*
+  Copyright Jasmine Jones & Jacob Wells
+*/
+
+body{
+  margin: auto;
+  width: 80%;
+  font-family: sans-serif;
+}
+
+header{
+  text-align: center;
+}
+
+h1{
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+h3{
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+
+p{
+  font-size: 1em;
+  margin-top: 0;
+}
+
+
+ul{
+  margin: 0 0;
+  padding: 0 0;
+}
+
+li{
+  list-style-type: disc;
+  margin-left: 40px;
+}
+
+.noStyle{
+  list-style: none;
+  margin: 0 0;
+  font-weight: bold;
+}
+.noBold{
+  font-weight: normal;
+}
+.noStylenoBold{
+  list-style: none;
+  margin: 0 0;
+  font-weight: normal;
+}
+.noStyleItalisize{
+  list-style: none;
+  margin: 0 0;
+  font-weight: normal;
+  font-style: italic;
+}
+.noStyleItalisizeBold{
+  list-style: none;
+  margin: 0 0;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.date{
+  list-style: none;
+  float: right;
+  margin-top: -2.3em;
+}
+#leadership .date{
+  list-style: none;
+  float: right;
+  margin-top: -1.15em;
+}
+div{
+  display: inline;
+  font-weight: normal;
+}
+header li{
+  list-style: none;
+  display: inline;
+  margin: 0;
+}
+@media screen and (max-width: 500px){
+  .date{
+    float: none;
+    margin: 0;
+  }
+  #leadership .date{
+    float: none;
+    margin: 0;
+  }
+  header li{
+  list-style: none;
+  display: block;
+  margin: 0;
+  }
+  #bullet{
+    display: none;
+  }
+}
